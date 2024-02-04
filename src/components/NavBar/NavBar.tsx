@@ -57,13 +57,13 @@ const NavBar = () => {
       expanded={expanded}
     >
       <Container>
-        {/* <Navbar.Brand onClick={() => setExpanded(false)}>
+        <Navbar.Brand onClick={() => setExpanded(false)}>
           <Nav>
             <Nav.Link to="/" as={NavLink}>
               <img className="logoShop" src="logo/shopLogo.jpg" alt="logo" />
             </Nav.Link>
           </Nav>
-        </Navbar.Brand> */}
+        </Navbar.Brand>
         {windowSize[0] <= 991 && <SearchInput />}
         <div>
           {windowSize[0] <= 991 &&
