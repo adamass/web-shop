@@ -11,7 +11,7 @@ import App from "./App.tsx";
 const queryClient = new QueryClient();
 
 ReactDOM.createRoot(document.getElementById("root")!).render(
-  <GoogleOAuthProvider clientId="787437815662-fv28kp3ei1dvpla457470iof1i58m1kv.apps.googleusercontent.com">
+  <GoogleOAuthProvider clientId="">
     <React.StrictMode>
       <ChakraProvider>
         <QueryClientProvider client={queryClient}>
