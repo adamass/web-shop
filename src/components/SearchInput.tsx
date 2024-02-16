@@ -103,7 +103,7 @@ const SearchInput = () => {
             <Input
               ref={ref}
               borderRadius={20}
-              placeholder="Search for something..."
+              placeholder="Search..."
               variant="filled"
               width="20rem"
               onClick={() => setInputValue("")}
